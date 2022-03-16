@@ -1,0 +1,104 @@
+.ms917MobileScroll {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.ms917FullScreenWrapper {
+  width: 50%;
+}
+
+.ms917FullScreen {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ms917MobileMockupWrapper {
+  width: 50%;
+  margin-top: 50px;
+}
+
+.ms917MobileMockup {
+  position: sticky;
+  top: 150px;
+  transform: translateX(30%);
+  width: 350px;
+  height: 600px;
+  box-shadow: var(--mobile-box-shadow);
+  border-radius: 46px;
+  padding: 16px 14px;
+  max-height: 100vh;
+}
+
+.ms917MobileMockupScreen {
+  background-color: var(--mobile-bg);
+  overflow: hidden;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.ms917MobileScreenImg {
+  height: 100%;
+  object-fit: contain;
+}
+
+.ms917ScreenText {
+  opacity: 0;
+  padding-bottom: 80px;
+}
+
+.ms917TextVisible {
+  opacity: 1;
+  transition: 0.75s;
+}
+
+.ms917ScreenHeading {
+  font-size: 105px;
+  font-weight: 700;
+  line-height: 105px;
+}
+
+.ms917ScreenDesc {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 52px;
+}
+
+@media all and (max-width: 1279px) {
+  .ms917MobileScroll {
+    padding-bottom: 30px;
+  }
+  .ms917MobileMockup {
+    width: 272px;
+    height: 480px;
+  }
+  .ms917ScreenHeading {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .ms917MobileMockup {
+    transform: translateX(10%);
+  }
+
+  .ms917ScreenDesc {
+    font-size: 18px;
+    margin-top: 44px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ms917MobileMockup {
+    width: 272px;
+    height: 480px;
+  }
+  .ms917ScreenHeading {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .ms917FullScreenWrapper {
+    width: 100%;
+  }
+}

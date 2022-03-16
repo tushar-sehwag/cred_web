@@ -1,0 +1,86 @@
+.hs14Wrapper {
+  position: relative;
+}
+
+.hs14FullHeight {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.hs14Heading {
+  font-size: 106px;
+  font-weight: 700;
+}
+
+.hs14SubHeading {
+  line-height: 38px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 35px 58px;
+}
+
+.hs14ClaimLabel {
+  background-color: var(--bg-gray);
+  width: 100%;
+  position: absolute;
+  height: 72px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.hs14ClaimArrow {
+  height: 11px;
+  margin: 7px 0px 0px 8px;
+}
+
+.hs14ClaimAnchor {
+  margin-left: 17px;
+  color: var(--link-blue);
+}
+
+@media all and (max-width: 1279px) {
+  .hs14Heading {
+    font-size: 82px;
+    line-height: 92px;
+  }
+
+  .hs14SubHeading {
+    font-size: 25px;
+  }
+
+  .hs14ClaimLabel {
+    flex-direction: column;
+  }
+  .hs14ClaimAnchor {
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .hs14FullHeight {
+    align-items: flex-start;
+    text-align: left;
+    min-height: 70vh;
+  }
+  .hs14Heading {
+    font-size: 55px;
+    line-height: 47.5px;
+    width: 270px;
+    margin-top: 60px;
+  }
+  .hs14SubHeading {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 35px 0px;
+  }
+  .hs14ClaimLabel {
+    height: 55px;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .hs14ClaimArrow {
+    height: 6px;
+    margin: 2px 0px 0px 3px;
+  }
+}

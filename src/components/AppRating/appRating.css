@@ -1,0 +1,71 @@
+.ar29AppRating {
+  padding: 200px 0px;
+  justify-content: space-around;
+}
+
+.ar29RatingValue {
+  font-size: 160px;
+  line-height: 120px;
+  padding-right: 16px;
+  font-weight: 700;
+}
+
+.ar29RatingStars {
+  width: 179px;
+  height: 28px;
+}
+
+.ar29RatingPlatform {
+  font-size: 60px;
+  line-height: 55px;
+  padding-left: 16px;
+  font-weight: 700;
+}
+
+.ar29RatingBlock {
+  margin-bottom: 70px;
+}
+
+.ar29RatingIcon {
+  height: 30px;
+  margin-right: 6px;
+}
+
+.ar29RatingButton {
+  padding: 15px 30px !important;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+@media all and (max-width: 1279px) {
+  .ar29AppRating {
+    padding: 100px 0px;
+  }
+  .ar29RatingValue {
+    font-size: 100px;
+  }
+  .ar29RatingStars {
+    width: 120px;
+    height: 18px;
+  }
+  .ar29RatingPlatform {
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ar29AppRating {
+    padding: 70px 0px;
+    flex-direction: column;
+  }
+  .ar29RatingValue {
+    font-size: 90px;
+  }
+  .ar29RatingPlatform {
+    font-size: 31px;
+    line-height: 32px;
+    text-align: left;
+    align-self: center;
+  }
+}

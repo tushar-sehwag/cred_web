@@ -1,0 +1,74 @@
+.cs68Story {
+  background-color: var(--bg-green);
+  min-height: 100vh;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  position: relative;
+}
+
+.cs68StoryWrapper {
+  align-items: flex-end;
+}
+
+.cs68HeadingWrapper {
+  width: 50%;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+}
+
+.cs68StoryHeading {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  max-width: 80%;
+}
+
+.cs68StoryDetail {
+  width: 50%;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.cs68StoryPara {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+  max-width: 550px;
+}
+
+@media all and (max-width: 1279px) {
+  .cs68StoryHeading {
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .cs68Story {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg-mobile.jpg);
+  }
+
+  .cs68StoryHeading {
+    font-size: 55px;
+    line-height: 55px;
+    padding-bottom: 80px;
+  }
+
+  .cs68StoryPara {
+    font-size: 15px;
+  }
+
+  .cs68StoryWrapper {
+    flex-direction: column;
+    padding: 70px 0px;
+  }
+
+  .cs68HeadingWrapper {
+    width: 100%;
+  }
+
+  .cs68StoryDetail {
+    width: 100%;
+  }
+}

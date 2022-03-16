@@ -1,0 +1,26 @@
+.ce65Wrapper {
+  background-color: var(--bg-blue);
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg.jpg);
+}
+
+@media all and (max-width: 1279px) {
+  .ce65Wrapper {
+    background-position: center bottom;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ce65Wrapper {
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/money-matters-bg-mobile.jpg);
+    min-height: 1150px;
+    background-position: right center;
+  }
+
+  .ce65Desc {
+    margin-top: 100px;
+  }
+
+  .ce65Heading {
+    margin-top: 400px;
+  }
+}

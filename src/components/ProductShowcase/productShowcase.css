@@ -1,0 +1,65 @@
+.ps719ProductShowcase {
+  width: 100vw;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+  background-size: cover;
+  background-position: right top;
+}
+
+.ps719ShowcaseWrapper {
+  min-height: 70%;
+}
+
+.ps719ShowcaseUI {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.ps719ShowcaseMock1 {
+  opacity: 1;
+  transform: translate(-160%, 25%);
+  z-index: 98;
+}
+
+.ps719ShowcaseMock2 {
+  opacity: 1;
+  transform: translate(-105%, 15%);
+  z-index: 99;
+}
+.ps719ShowcaseMock3 {
+  opacity: 1;
+  transform: translate(-50%, 5%);
+  z-index: 100;
+}
+.ps719ShowcaseMock4 {
+  opacity: 1;
+  transform: translate(5%, 15%);
+  z-index: 99;
+}
+.ps719ShowcaseMock5 {
+  opacity: 1;
+  transform: translate(60%, 25%);
+  z-index: 98;
+}
+
+@media all and (max-width: 1279px) {
+  .ps719ProductShowcase {
+    height: 620px;
+  }
+  .ps719ShowcaseUI {
+    width: 300px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .ps719ProductShowcase {
+    height: 450px;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
+  }
+  .ps719ShowcaseUI {
+    width: 170px;
+  }
+}
